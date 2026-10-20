@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WheelsToGo Rentals</title>
+<style>
+:root { --p: #1F5F6B; --a: #F2B84B; --paper: #F5F6F2; --ink: #142024; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 17px; line-height: 1.6; }
+a { color: var(--p); }
+.demo { background: #0E1012; color: #D5DADE; font: 13px/1.5 ui-monospace, Menlo, monospace; padding: 9px 16px; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 16px; text-align: center; }
+.demo a { color: #C8F560; }
+.address { display: flex; justify-content: center; padding: 10px 16px 0; }
+.address span { display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border-radius: 999px; background: rgba(0,0,0,0.05); font: 13px ui-monospace, Menlo, monospace; color: var(--ink); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding-top: 22px; padding-bottom: 22px; }
+.brand { display: flex; align-items: center; gap: 14px; font: 700 22px Georgia, "Times New Roman", serif; }
+.wordmark { width: 40px; height: 40px; border-radius: 50%; background: var(--p); }
+nav { display: flex; gap: 22px; }
+nav a { color: var(--ink); text-decoration: none; font-size: 15px; }
+.hero { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); align-items: center; gap: 40px; padding-top: 48px; padding-bottom: 80px; }
+.eyebrow { margin: 0 0 14px; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--p); font-weight: 700; }
+h1 { margin: 0 0 20px; font: 700 clamp(40px, 6vw, 66px)/1.04 Georgia, "Times New Roman", serif; letter-spacing: -0.02em; }
+h2 { margin: 0 0 24px; font: 700 clamp(28px, 4vw, 38px)/1.1 Georgia, "Times New Roman", serif; }
+.lead { margin: 0 0 28px; font-size: 19px; max-width: 540px; }
+.btn { display: inline-block; padding: 14px 28px; border-radius: 999px; background: var(--p); color: var(--paper); font-weight: 700; text-decoration: none; }
+.art { display: flex; justify-content: center; }
+.art svg { width: min(280px, 70vw); height: auto; filter: drop-shadow(0 24px 40px rgba(0,0,0,0.18)); }
+.band { background: #fff; padding: 72px 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 20px; }
+.card { padding: 26px; border-radius: 18px; background: var(--paper); border-top: 4px solid var(--a); }
+.card h3 { margin: 0 0 8px; font: 700 20px Georgia, serif; }
+.card p { margin: 0; }
+.menu { padding-top: 72px; padding-bottom: 72px; }
+.row { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 18px 0; border-bottom: 1px dashed rgba(0,0,0,0.18); }
+.row h3 { margin: 0; font: 700 19px Georgia, serif; }
+.row p { margin: 4px 0 0; opacity: 0.8; }
+.price { font: 700 18px Georgia, serif; color: var(--p); white-space: nowrap; }
+.contact { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 24px; }
+footer { padding: 32px 0 48px; font-size: 14px; opacity: 0.75; }
+</style>
+</head>
+<body>
+<div class="demo"><span>Demo site: planned, paid for and built by an AI agent with PayPal sandbox payouts ($23.00)</span><a href="https://github.com/muriithiKabogo/paypal-budget-agent">See how it works</a></div>
+<div class="address"><span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg> https://wheelstogorentals.shop</span></div>
+<header class="wrap">
+  <div class="brand"><svg viewBox="0 0 120 120" width="40" height="40" aria-hidden="true"><circle cx="60" cy="60" r="58" fill="#1F5F6B"/><circle cx="60" cy="60" r="40" fill="none" stroke="#F2B84B" stroke-width="2"/><circle cx="107.0" cy="60.0" r="2" fill="#F2B84B"/><circle cx="100.7" cy="83.5" r="2" fill="#F2B84B"/><circle cx="83.5" cy="100.7" r="2" fill="#F2B84B"/><circle cx="60.0" cy="107.0" r="2" fill="#F2B84B"/><circle cx="36.5" cy="100.7" r="2" fill="#F2B84B"/><circle cx="19.3" cy="83.5" r="2" fill="#F2B84B"/><circle cx="13.0" cy="60.0" r="2" fill="#F2B84B"/><circle cx="19.3" cy="36.5" r="2" fill="#F2B84B"/><circle cx="36.5" cy="19.3" r="2" fill="#F2B84B"/><circle cx="60.0" cy="13.0" r="2" fill="#F2B84B"/><circle cx="83.5" cy="19.3" r="2" fill="#F2B84B"/><circle cx="100.7" cy="36.5" r="2" fill="#F2B84B"/><text x="60" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#F5F6F2">WR</text></svg>WheelsToGo Rentals</div>
+  <nav><a href="#about">About</a><a href="#offer">Services</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+<section class="wrap hero">
+  <div>
+    <p class="eyebrow">Car rental company</p>
+    <h1>Convenient car rentals for work, travel, and play.</h1>
+    <p class="lead">At WheelsToGo Rentals, we make getting on the road simple, seamless, and stress-free. Whether you need a compact car for a quick business trip or a spacious SUV for a family vacation, our diverse fleet is ready for your journey. We are dedicated to providing well-maintained vehicles and friendly service every step of the way.</p>
+    <a class="btn" href="#contact">Reserve Your Vehicle Now</a>
+  </div>
+  <div class="art"><svg viewBox="0 0 120 120" width="280" height="280" aria-hidden="true"><circle cx="60" cy="60" r="58" fill="#1F5F6B"/><circle cx="60" cy="60" r="40" fill="none" stroke="#F2B84B" stroke-width="2"/><circle cx="107.0" cy="60.0" r="2" fill="#F2B84B"/><circle cx="100.7" cy="83.5" r="2" fill="#F2B84B"/><circle cx="83.5" cy="100.7" r="2" fill="#F2B84B"/><circle cx="60.0" cy="107.0" r="2" fill="#F2B84B"/><circle cx="36.5" cy="100.7" r="2" fill="#F2B84B"/><circle cx="19.3" cy="83.5" r="2" fill="#F2B84B"/><circle cx="13.0" cy="60.0" r="2" fill="#F2B84B"/><circle cx="19.3" cy="36.5" r="2" fill="#F2B84B"/><circle cx="36.5" cy="19.3" r="2" fill="#F2B84B"/><circle cx="60.0" cy="13.0" r="2" fill="#F2B84B"/><circle cx="83.5" cy="19.3" r="2" fill="#F2B84B"/><circle cx="100.7" cy="36.5" r="2" fill="#F2B84B"/><text x="60" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#F5F6F2">WR</text></svg></div>
+</section>
+<section id="about" class="band"><div class="wrap cards"><div class="card"><h3>Diverse Fleet Options</h3><p>Choose from our selection of compact cars, sedans, and SUVs to match your travel needs.</p></div><div class="card"><h3>Flexible Rental Terms</h3><p>Enjoy convenient daily, weekly, and long-term rental options tailored to your schedule.</p></div><div class="card"><h3>Seamless Booking Process</h3><p>Reserve your preferred vehicle quickly online so you can hit the road without delay.</p></div></div></section>
+<section id="offer" class="wrap menu"><h2>What we offer</h2><div class="row"><div><h3>Economy &amp; Compact Cars</h3><p>Fuel-efficient vehicles perfect for city driving and quick solo trips.</p></div></div><div class="row"><div><h3>Full-Size Sedans</h3><p>Comfortable and smooth rides ideal for business travel and longer drives.</p></div></div><div class="row"><div><h3>Spacious SUVs</h3><p>Roomy vehicles with extra luggage space for family trips and group outings.</p></div></div><div class="row"><div><h3>Executive &amp; Premium Rides</h3><p>Upgraded options to travel in style and comfort for special occasions.</p></div></div><div class="row"><div><h3>Long-Term Rentals</h3><p>Extended rental plans designed for extended business stays or temporary needs.</p></div></div></section>
+<section id="contact" class="band"><div class="wrap contact">
+  <div><h2>Say hello</h2><p><a href="mailto:hello@wheelstogorentals.shop">hello@wheelstogorentals.shop</a></p></div>
+  <div><h2>Hours</h2><p>Monday - Sunday: 7:00 AM - 8:00 PM</p></div>
+</div></section>
+</main>
+<footer class="wrap">© 2026 WheelsToGo Rentals · wheelstogorentals.shop<br>Domain: Dotlark · Hosting: Render · SSL certificate: Render (included) · Email: Mailcrest · Logo: Pixelfern</footer>
+</body>
+</html>
