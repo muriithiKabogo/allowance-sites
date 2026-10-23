@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mama&#39;s Bakery</title>
+<style>
+:root { --p: #A9542C; --a: #E3B261; --paper: #FBF4EA; --ink: #2B1D14; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 17px; line-height: 1.6; }
+a { color: var(--p); }
+.demo { background: #0E1012; color: #D5DADE; font: 13px/1.5 ui-monospace, Menlo, monospace; padding: 9px 16px; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 16px; text-align: center; }
+.demo a { color: #C8F560; }
+.address { display: flex; justify-content: center; padding: 10px 16px 0; }
+.address span { display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border-radius: 999px; background: rgba(0,0,0,0.05); font: 13px ui-monospace, Menlo, monospace; color: var(--ink); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding-top: 22px; padding-bottom: 22px; }
+.brand { display: flex; align-items: center; gap: 14px; font: 700 22px Georgia, "Times New Roman", serif; }
+.wordmark { width: 40px; height: 40px; border-radius: 50%; background: var(--p); }
+nav { display: flex; gap: 22px; }
+nav a { color: var(--ink); text-decoration: none; font-size: 15px; }
+.hero { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); align-items: center; gap: 40px; padding-top: 48px; padding-bottom: 80px; }
+.eyebrow { margin: 0 0 14px; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--p); font-weight: 700; }
+h1 { margin: 0 0 20px; font: 700 clamp(40px, 6vw, 66px)/1.04 Georgia, "Times New Roman", serif; letter-spacing: -0.02em; }
+h2 { margin: 0 0 24px; font: 700 clamp(28px, 4vw, 38px)/1.1 Georgia, "Times New Roman", serif; }
+.lead { margin: 0 0 28px; font-size: 19px; max-width: 540px; }
+.btn { display: inline-block; padding: 14px 28px; border-radius: 999px; background: var(--p); color: var(--paper); font-weight: 700; text-decoration: none; }
+.art { display: flex; justify-content: center; }
+.art svg { width: min(280px, 70vw); height: auto; filter: drop-shadow(0 24px 40px rgba(0,0,0,0.18)); }
+.band { background: #fff; padding: 72px 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 20px; }
+.card { padding: 26px; border-radius: 18px; background: var(--paper); border-top: 4px solid var(--a); }
+.card h3 { margin: 0 0 8px; font: 700 20px Georgia, serif; }
+.card p { margin: 0; }
+.menu { padding-top: 72px; padding-bottom: 72px; }
+.row { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 18px 0; border-bottom: 1px dashed rgba(0,0,0,0.18); }
+.row h3 { margin: 0; font: 700 19px Georgia, serif; }
+.row p { margin: 4px 0 0; opacity: 0.8; }
+.price { font: 700 18px Georgia, serif; color: var(--p); white-space: nowrap; }
+.contact { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 24px; }
+footer { padding: 32px 0 48px; font-size: 14px; opacity: 0.75; }
+</style>
+</head>
+<body>
+<div class="demo"><span>Demo site: planned, paid for and built by an AI agent with PayPal sandbox payouts ($23.00)</span><a href="https://github.com/muriithiKabogo/paypal-budget-agent">See how it works</a></div>
+<div class="address"><span><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg> https://mamasbakery.shop</span></div>
+<header class="wrap">
+  <div class="brand"><svg viewBox="0 0 120 120" width="40" height="40" aria-hidden="true"><circle cx="60" cy="60" r="58" fill="#A9542C"/><circle cx="60" cy="60" r="40" fill="none" stroke="#E3B261" stroke-width="2"/><circle cx="107.0" cy="60.0" r="2" fill="#E3B261"/><circle cx="100.7" cy="83.5" r="2" fill="#E3B261"/><circle cx="83.5" cy="100.7" r="2" fill="#E3B261"/><circle cx="60.0" cy="107.0" r="2" fill="#E3B261"/><circle cx="36.5" cy="100.7" r="2" fill="#E3B261"/><circle cx="19.3" cy="83.5" r="2" fill="#E3B261"/><circle cx="13.0" cy="60.0" r="2" fill="#E3B261"/><circle cx="19.3" cy="36.5" r="2" fill="#E3B261"/><circle cx="36.5" cy="19.3" r="2" fill="#E3B261"/><circle cx="60.0" cy="13.0" r="2" fill="#E3B261"/><circle cx="83.5" cy="19.3" r="2" fill="#E3B261"/><circle cx="100.7" cy="36.5" r="2" fill="#E3B261"/><text x="60" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#FBF4EA">MB</text></svg>Mama&#39;s Bakery</div>
+  <nav><a href="#about">About</a><a href="#offer">Menu</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+<section class="wrap hero">
+  <div>
+    <p class="eyebrow">Bakery</p>
+    <h1>Fresh bread and pastries baked daily with love.</h1>
+    <p class="lead">At Mama&#39;s Bakery, we believe nothing comforts the soul quite like the smell of warm, fresh bread. Every morning before sunrise, our bakers craft rustic loaves and flaky pastries using simple, wholesome ingredients. Stop by to grab your morning treat or a fresh loaf to share with family.</p>
+    <a class="btn" href="#contact">Order Fresh Baking</a>
+  </div>
+  <div class="art"><svg viewBox="0 0 120 120" width="280" height="280" aria-hidden="true"><circle cx="60" cy="60" r="58" fill="#A9542C"/><circle cx="60" cy="60" r="40" fill="none" stroke="#E3B261" stroke-width="2"/><circle cx="107.0" cy="60.0" r="2" fill="#E3B261"/><circle cx="100.7" cy="83.5" r="2" fill="#E3B261"/><circle cx="83.5" cy="100.7" r="2" fill="#E3B261"/><circle cx="60.0" cy="107.0" r="2" fill="#E3B261"/><circle cx="36.5" cy="100.7" r="2" fill="#E3B261"/><circle cx="19.3" cy="83.5" r="2" fill="#E3B261"/><circle cx="13.0" cy="60.0" r="2" fill="#E3B261"/><circle cx="19.3" cy="36.5" r="2" fill="#E3B261"/><circle cx="36.5" cy="19.3" r="2" fill="#E3B261"/><circle cx="60.0" cy="13.0" r="2" fill="#E3B261"/><circle cx="83.5" cy="19.3" r="2" fill="#E3B261"/><circle cx="100.7" cy="36.5" r="2" fill="#E3B261"/><text x="60" y="72" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#FBF4EA">MB</text></svg></div>
+</section>
+<section id="about" class="band"><div class="wrap cards"><div class="card"><h3>Baked Fresh Daily</h3><p>We start baking before dawn every single morning so you always get warm, fresh goods.</p></div><div class="card"><h3>Simple Wholesome Ingredients</h3><p>Our recipes use real butter, pure flour, and no artificial preservatives.</p></div><div class="card"><h3>Made With Care</h3><p>Every loaf and pastry is hand-shaped with traditional baking methods.</p></div></div></section>
+<section id="offer" class="wrap menu"><h2>On the menu</h2><div class="row"><div><h3>Sourdough Boule</h3><p>A traditional slow-fermented crusty loaf with a soft, airy crumb.</p></div><span class="price">$7.50</span></div><div class="row"><div><h3>Butter Croissant</h3><p>Flaky, golden layers baked fresh every morning with pure butter.</p></div><span class="price">$3.75</span></div><div class="row"><div><h3>Cinnamon Roll</h3><p>Soft, warm roll filled with cinnamon sugar and topped with cream cheese icing.</p></div><span class="price">$4.25</span></div><div class="row"><div><h3>Chocolate Brioche Loaf</h3><p>Rich brioche bread folded with dark chocolate chunks throughout.</p></div><span class="price">$8.00</span></div><div class="row"><div><h3>Classic French Baguette</h3><p>Traditional French baguette with a crisp crust and chewy interior.</p></div><span class="price">$4.00</span></div></section>
+<section id="contact" class="band"><div class="wrap contact">
+  <div><h2>Say hello</h2><p><a href="mailto:hello@mamasbakery.shop">hello@mamasbakery.shop</a></p></div>
+  <div><h2>Hours</h2><p>Tuesday to Sunday: 6:30 AM - 3:00 PM</p></div>
+</div></section>
+</main>
+<footer class="wrap">© 2026 Mama&#39;s Bakery · mamasbakery.shop<br>Domain: Dotlark · Hosting: Render · SSL certificate: Render (included) · Email: Mailcrest · Logo: Pixelfern</footer>
+</body>
+</html>
